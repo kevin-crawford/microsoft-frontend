@@ -39,3 +39,11 @@ h1 {
   list-style: none;
   padding: 0;
 }
+
+footer {
+  display: flex;
+}
+
+footer span {
+  flex-grow: 1;
+}

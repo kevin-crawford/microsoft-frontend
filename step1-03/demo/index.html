@@ -62,5 +62,17 @@
         }
       }
     }
+
+    function addTodo() {
+      const todo = document.querySelector('.todo');
+      const newTodo = todo.cloneNode(true);
+
+      newTodo.querySelector('.title').innerText = getTodoText();
+      todo.parentElement.insertBefore(newTodo, todo);
+
+      clearInput('.textfield');
+      updateRemaining();
+      
+    }
   </script>
 </html>

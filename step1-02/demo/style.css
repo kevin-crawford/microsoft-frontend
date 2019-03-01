@@ -22,6 +22,10 @@ h1 {
   padding: 5px 10px;
 }
 
+.filter .selected {
+  border-bottom: 2px solid blue;
+}
+
 .filter {
   margin: 10px 0 0;
 }
@@ -29,10 +33,6 @@ h1 {
 .filter button {
   background: transparent;
   border: none;
-}
-
-.selected {
-  border-bottom: 2px solid blue;
 }
 
 .todos {
